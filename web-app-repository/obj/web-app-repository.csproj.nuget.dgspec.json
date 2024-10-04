@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj": {}
+    "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {}
   },
   "projects": {
     "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
@@ -56,90 +56,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj",
-        "projectName": "web-app-inventario",
-        "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj",
-        "packagesPath": "C:\\Users\\Giovanna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Giovanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
-                "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj"
-              },
-              "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {
-                "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "StackExchange.Redis": {
-              "target": "Package",
-              "version": "[2.8.16, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

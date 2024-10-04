@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+h0PovklcW7QDrdJxKR1uXfHo234trgVYnFKy2NJ2QUWZ2TBOmNHav7zMdU/bLOhUYjkT82CMrcmX3Nk4L5bBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Giovanna\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\Giovanna\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\Giovanna\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512"
+  ],
+  "logs": []
+}

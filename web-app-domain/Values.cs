@@ -1,4 +1,4 @@
-﻿namespace web_app_inventario.Model
+﻿namespace web_app_domain
 {
     public class Values
     {

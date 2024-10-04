@@ -192,6 +192,31 @@
             "related": ".xml"
           }
         }
+      },
+      "web-app-domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/web-app-domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/web-app-domain.dll": {}
+        }
+      },
+      "web-app-repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Dapper": "2.1.35",
+          "MySqlConnector": "2.3.7",
+          "web-app-domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/web-app-repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/web-app-repository.dll": {}
+        }
       }
     }
   },
@@ -744,15 +769,25 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "web-app-domain/1.0.0": {
+      "type": "project",
+      "path": "../web-app-domain/web-app-domain.csproj",
+      "msbuildProject": "../web-app-domain/web-app-domain.csproj"
+    },
+    "web-app-repository/1.0.0": {
+      "type": "project",
+      "path": "../web-app-repository/web-app-repository.csproj",
+      "msbuildProject": "../web-app-repository/web-app-repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Dapper >= 2.1.35",
-      "MySqlConnector >= 2.3.7",
       "Newtonsoft.Json >= 13.0.3",
       "StackExchange.Redis >= 2.8.16",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "web-app-domain >= 1.0.0",
+      "web-app-repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -781,7 +816,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
+              "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj"
+            },
+            "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {
+              "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -799,14 +841,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Dapper": {
-            "target": "Package",
-            "version": "[2.1.35, )"
-          },
-          "MySqlConnector": {
-            "target": "Package",
-            "version": "[2.3.7, )"
-          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
