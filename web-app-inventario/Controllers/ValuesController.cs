@@ -22,21 +22,23 @@ namespace web_app_inventario.Controllers
         [HttpGet]
         public async Task<IActionResult> GetValues()
         {
-            string key = "getvalues";
-            redis = ConnectionMultiplexer.Connect("localhost:3306");
-            IDatabase db = redis.GetDatabase();
-            await db.KeyExpireAsync(key, TimeSpan.FromSeconds(10));
-            string user = await db.StringGetAsync(key);
+            //string key = "getvalues";
+            //redis = ConnectionMultiplexer.Connect("localhost:3306");
+            //IDatabase db = redis.GetDatabase();
+            //await db.KeyExpireAsync(key, TimeSpan.FromSeconds(10));
+            //string user = await db.StringGetAsync(key);
 
-            if (!string.IsNullOrEmpty(user))
-            {
-                return Ok(user);
-            }
+            //if (!string.IsNullOrEmpty(user))
+            //{
+            //    return Ok(user);
+            //}
 
-            var produto = await _repository.ListValues();            
+            var produto = await _repository.ListValues();
+            if(produto == null)
+                return NotFound();
+
             string produtosJson = JsonConvert.SerializeObject(produto);
-            await db.StringSetAsync(key, produtosJson);
-
+            //await db.StringSetAsync(key, produtosJson);
             return Ok(produto);
         }
 
@@ -46,12 +48,12 @@ namespace web_app_inventario.Controllers
             await _repository.SaveValues(produto);
 
             //apagar o cachê
-            string key = "getvalues";
-            redis = ConnectionMultiplexer.Connect("localhost:3306");
-            IDatabase db = redis.GetDatabase();
-            await db.KeyDeleteAsync(key);
+            //string key = "getvalues";
+            //redis = ConnectionMultiplexer.Connect("localhost:3306");
+            //IDatabase db = redis.GetDatabase();
+            //await db.KeyDeleteAsync(key);
 
-            return Ok();
+            return Ok(new {mensagem = "Criado com sucesso!"});
         }
 
         [HttpPut]

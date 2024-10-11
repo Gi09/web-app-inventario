@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZIbezLQMmMET8z0152xb8b8N15DxxMiofqPkYu53/RU=",
+  "Source": "web-app-inventario",
+  "BasePath": "_content/web-app-inventario",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
