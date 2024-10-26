@@ -10,3 +10,4 @@ C:\Users\Giovanna\Desktop\3SIR\Microservice and Web Engineering\web-app-inventar
 C:\Users\Giovanna\Desktop\3SIR\Microservice and Web Engineering\web-app-inventario\web-app-domain\obj\Debug\net8.0\refint\web-app-domain.dll
 C:\Users\Giovanna\Desktop\3SIR\Microservice and Web Engineering\web-app-inventario\web-app-domain\obj\Debug\net8.0\web-app-domain.pdb
 C:\Users\Giovanna\Desktop\3SIR\Microservice and Web Engineering\web-app-inventario\web-app-domain\obj\Debug\net8.0\ref\web-app-domain.dll
+C:\Users\Giovanna\Desktop\3SIR\Microservice and Web Engineering\web-app-inventario\web-app-domain\obj\Debug\net8.0\web-app-domain.csproj.AssemblyReference.cache

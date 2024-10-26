@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Cadastro de Produtos</h2>
+        <form id="registerForm">
+            <div class="form-group">
+                <label for="registerId">Id</label>
+                <input type="text" class="form-control" id="registerId" required>
+            </div>
+            <div class="form-group">
+                <label for="registerName">Nome</label>
+                <input type="text" class="form-control" id="registerName" required>
+            </div>
+            <div class="form-group">
+                <label for="registerPrice">Preço</label>
+                <input type="text" class="form-control" id="registerPrice" required>
+            </div>
+            <div class="form-group">
+                <label for="registerQtd">Quantidade de Estoque</label>
+                <input type="number" class="form-control" id="registerQtd" required>
+            </div>
+            <div class="form-group">
+                <label for="registerDate">Data da Criação</label>
+                <input type="date" class="form-control" id="registerDate" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const id = document.getElementById('registerId').value;
+            const nome = document.getElementById('registerName').value;
+            const preco = document.getElementById('registerPrice').value;
+            const qtd_estoque = document.getElementById('registerQtd').value;
+            const data = document.getElementById('registerDate').value;
+
+            const produtos = JSON.parse(localStorage.getItem('produtos')) || [];
+            produtos.push({ id, nome, preco, qtd_estoque, data });
+            localStorage.setItem('produtos', JSON.stringify(produtos));
+
+            alert('Produto cadastrado com sucesso!');
+            window.location.href = 'listar.html';
+        });
+    </script>
+</body>
+</html>
