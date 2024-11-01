@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\UnitTeste1\\UnitTeste1.csproj": {}
+    "D:\\web-app-inventario\\UnitTeste1\\UnitTeste1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\UnitTeste1\\UnitTeste1.csproj": {
+    "D:\\web-app-inventario\\ConsumidorMensageria\\ConsumidorMensageria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\UnitTeste1\\UnitTeste1.csproj",
-        "projectName": "UnitTeste1",
-        "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\UnitTeste1\\UnitTeste1.csproj",
-        "packagesPath": "C:\\Users\\Giovanna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\UnitTeste1\\obj\\",
+        "projectUniqueName": "D:\\web-app-inventario\\ConsumidorMensageria\\ConsumidorMensageria.csproj",
+        "projectName": "ConsumidorMensageria",
+        "projectPath": "D:\\web-app-inventario\\ConsumidorMensageria\\ConsumidorMensageria.csproj",
+        "packagesPath": "C:\\Softwares\\Nuget",
+        "outputPath": "D:\\web-app-inventario\\ConsumidorMensageria\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Giovanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "c:\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,20 +26,92 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\web-app-inventario\\UnitTeste1\\UnitTeste1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\web-app-inventario\\UnitTeste1\\UnitTeste1.csproj",
+        "projectName": "UnitTeste1",
+        "projectPath": "D:\\web-app-inventario\\UnitTeste1\\UnitTeste1.csproj",
+        "packagesPath": "C:\\Softwares\\Nuget",
+        "outputPath": "D:\\web-app-inventario\\UnitTeste1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "c:\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
-                "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj"
+              "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
+                "projectPath": "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj"
               },
-              "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj": {
-                "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj"
+              "D:\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj": {
+                "projectPath": "D:\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj"
               },
-              "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {
-                "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj"
+              "D:\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {
+                "projectPath": "D:\\web-app-inventario\\web-app-repository\\web-app-repository.csproj"
               }
             }
           }
@@ -96,21 +172,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
+    "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj",
+        "projectUniqueName": "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj",
         "projectName": "web-app-domain",
-        "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj",
-        "packagesPath": "C:\\Users\\Giovanna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\obj\\",
+        "projectPath": "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj",
+        "packagesPath": "C:\\Softwares\\Nuget",
+        "outputPath": "D:\\web-app-inventario\\web-app-domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Giovanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "c:\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,6 +198,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -162,21 +243,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj": {
+    "D:\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj",
+        "projectUniqueName": "D:\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj",
         "projectName": "web-app-inventario",
-        "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj",
-        "packagesPath": "C:\\Users\\Giovanna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\obj\\",
+        "projectPath": "D:\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj",
+        "packagesPath": "C:\\Softwares\\Nuget",
+        "outputPath": "D:\\web-app-inventario\\web-app-inventario\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Giovanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "c:\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -184,17 +269,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
-                "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj"
+              "D:\\web-app-inventario\\ConsumidorMensageria\\ConsumidorMensageria.csproj": {
+                "projectPath": "D:\\web-app-inventario\\ConsumidorMensageria\\ConsumidorMensageria.csproj"
               },
-              "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {
-                "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj"
+              "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
+                "projectPath": "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj"
+              },
+              "D:\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {
+                "projectPath": "D:\\web-app-inventario\\web-app-repository\\web-app-repository.csproj"
               }
             }
           }
@@ -221,6 +310,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             },
             "StackExchange.Redis": {
               "target": "Package",
@@ -250,21 +343,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {
+    "D:\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj",
+        "projectUniqueName": "D:\\web-app-inventario\\web-app-repository\\web-app-repository.csproj",
         "projectName": "web-app-repository",
-        "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj",
-        "packagesPath": "C:\\Users\\Giovanna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\obj\\",
+        "projectPath": "D:\\web-app-inventario\\web-app-repository\\web-app-repository.csproj",
+        "packagesPath": "C:\\Softwares\\Nuget",
+        "outputPath": "D:\\web-app-inventario\\web-app-repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Giovanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "c:\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -272,14 +369,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
-                "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj"
+              "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
+                "projectPath": "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj"
               }
             }
           }
@@ -328,7 +426,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

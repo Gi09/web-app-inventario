@@ -2,8 +2,11 @@
 using MySqlConnector;
 using Newtonsoft.Json;
 using StackExchange.Redis;
+using System.Text;
 using web_app_domain;
 using web_app_repository;
+using RabbitMQ.Client;
+using System.Text;
 
 namespace web_app_inventario.Controllers
 {
@@ -53,7 +56,46 @@ namespace web_app_inventario.Controllers
             //IDatabase db = redis.GetDatabase();
             //await db.KeyDeleteAsync(key);
 
-            return Ok(new {mensagem = "Criado com sucesso!"});
+            var factory = new ConnectionFactory()
+            {
+                HostName = "localhost"
+            };
+
+            using var connection = factory.CreateConnection();
+            using var channel = connection.CreateModel();
+            const string fila = "produto_cadastrado";
+
+            channel.QueueDeclare(queue: fila,
+                                 durable: false,
+                                 exclusive: false,
+                                 autoDelete: false,
+                                 arguments: null);
+
+            // Criando a mensagem JSON
+            //var mensagemJson = JsonSerializer.Serialize(new
+            //{
+            //produtoId = produto.id,
+            //nomeProduto = produto.nome,
+            //quantidadeInicial = produto.quantidadeInicial
+            //});
+            string mensagem = $"Mensagem:" +
+                $" Produto: ;" +
+                $"Nome: ;" +
+                $"Quantidade:";
+
+            var body = Encoding.UTF8.GetBytes(mensagem);
+
+            // Publicando a mensagem
+            channel.BasicPublish(exchange: "",
+                                 routingKey: fila,
+                                 basicProperties: null,
+                                 body: body);
+
+            Console.WriteLine($" ");
+
+            Console.WriteLine("Mensagem postada com sucesso!");
+
+            return Ok(new { mensagem = "Criado com sucesso!" });
         }
 
         [HttpPut]

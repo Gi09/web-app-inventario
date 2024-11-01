@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web-app-repository", "web-a
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web-app-domain", "web-app-domain\web-app-domain.csproj", "{78F17ACF-799C-41A5-933D-7961B730055D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTeste1", "UnitTeste1\UnitTeste1.csproj", "{D759F7AF-2372-4933-BC6A-4F69D6BA2FD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTeste1", "UnitTeste1\UnitTeste1.csproj", "{D759F7AF-2372-4933-BC6A-4F69D6BA2FD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumidorMensageria", "ConsumidorMensageria\ConsumidorMensageria.csproj", "{DA87A72B-41A0-4CF2-8D67-7812A0597327}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D759F7AF-2372-4933-BC6A-4F69D6BA2FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D759F7AF-2372-4933-BC6A-4F69D6BA2FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D759F7AF-2372-4933-BC6A-4F69D6BA2FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA87A72B-41A0-4CF2-8D67-7812A0597327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA87A72B-41A0-4CF2-8D67-7812A0597327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA87A72B-41A0-4CF2-8D67-7812A0597327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA87A72B-41A0-4CF2-8D67-7812A0597327}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

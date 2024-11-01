@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\",
+  "WorkspaceRootPath": "D:\\web-app-inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C87A740-4722-46D0-B750-4AFB6822E49A}|web-app-inventario\\web-app-inventario.csproj|c:\\users\\giovanna\\desktop\\3sir\\microservice and web engineering\\web-app-inventario\\web-app-inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C87A740-4722-46D0-B750-4AFB6822E49A}|web-app-inventario\\web-app-inventario.csproj|solutionrelative:web-app-inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D759F7AF-2372-4933-BC6A-4F69D6BA2FD6}|UnitTeste1\\UnitTeste1.csproj|c:\\users\\giovanna\\desktop\\3sir\\microservice and web engineering\\web-app-inventario\\unitteste1\\valuesrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D759F7AF-2372-4933-BC6A-4F69D6BA2FD6}|UnitTeste1\\UnitTeste1.csproj|solutionrelative:unitteste1\\valuesrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D759F7AF-2372-4933-BC6A-4F69D6BA2FD6}|UnitTeste1\\UnitTeste1.csproj|c:\\users\\giovanna\\desktop\\3sir\\microservice and web engineering\\web-app-inventario\\unitteste1\\valuescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D759F7AF-2372-4933-BC6A-4F69D6BA2FD6}|UnitTeste1\\UnitTeste1.csproj|solutionrelative:unitteste1\\valuescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78F17ACF-799C-41A5-933D-7961B730055D}|web-app-domain\\web-app-domain.csproj|c:\\users\\giovanna\\desktop\\3sir\\microservice and web engineering\\web-app-inventario\\web-app-domain\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78F17ACF-799C-41A5-933D-7961B730055D}|web-app-domain\\web-app-domain.csproj|solutionrelative:web-app-domain\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C87A740-4722-46D0-B750-4AFB6822E49A}|web-app-inventario\\web-app-inventario.csproj|c:\\users\\giovanna\\desktop\\3sir\\microservice and web engineering\\web-app-inventario\\web-app-inventario\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C87A740-4722-46D0-B750-4AFB6822E49A}|web-app-inventario\\web-app-inventario.csproj|d:\\web-app-inventario\\web-app-inventario\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C87A740-4722-46D0-B750-4AFB6822E49A}|web-app-inventario\\web-app-inventario.csproj|solutionrelative:web-app-inventario\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E1B8BD2-0226-44BB-BA6C-0C80027BAF9E}|web-app-repository\\web-app-repository.csproj|c:\\users\\giovanna\\desktop\\3sir\\microservice and web engineering\\web-app-inventario\\web-app-repository\\valuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E1B8BD2-0226-44BB-BA6C-0C80027BAF9E}|web-app-repository\\web-app-repository.csproj|solutionrelative:web-app-repository\\valuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA87A72B-41A0-4CF2-8D67-7812A0597327}|ConsumidorMensageria\\ConsumidorMensageria.csproj|d:\\web-app-inventario\\consumidormensageria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA87A72B-41A0-4CF2-8D67-7812A0597327}|ConsumidorMensageria\\ConsumidorMensageria.csproj|solutionrelative:consumidormensageria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E1B8BD2-0226-44BB-BA6C-0C80027BAF9E}|web-app-repository\\web-app-repository.csproj|c:\\users\\giovanna\\desktop\\3sir\\microservice and web engineering\\web-app-inventario\\web-app-repository\\ivaluerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E1B8BD2-0226-44BB-BA6C-0C80027BAF9E}|web-app-repository\\web-app-repository.csproj|solutionrelative:web-app-repository\\ivaluerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78F17ACF-799C-41A5-933D-7961B730055D}|web-app-domain\\web-app-domain.csproj|d:\\web-app-inventario\\web-app-domain\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F17ACF-799C-41A5-933D-7961B730055D}|web-app-domain\\web-app-domain.csproj|solutionrelative:web-app-domain\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,93 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\Program.cs",
-              "RelativeDocumentMoniker": "web-app-inventario\\Program.cs",
-              "ToolTip": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\Program.cs",
-              "RelativeToolTip": "web-app-inventario\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAswCUAAAAXAAAA",
+              "DocumentIndex": 2,
+              "Title": "Values.cs",
+              "DocumentMoniker": "D:\\web-app-inventario\\web-app-domain\\Values.cs",
+              "RelativeDocumentMoniker": "web-app-domain\\Values.cs",
+              "ToolTip": "D:\\web-app-inventario\\web-app-domain\\Values.cs",
+              "RelativeToolTip": "web-app-domain\\Values.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T02:00:41.069Z",
+              "WhenOpened": "2024-11-01T00:08:05.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "D:\\web-app-inventario\\web-app-inventario\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "web-app-inventario\\Controllers\\ValuesController.cs",
+              "ToolTip": "D:\\web-app-inventario\\web-app-inventario\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "web-app-inventario\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAwwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T23:59:48.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ValuesRepositoryTest.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\UnitTeste1\\ValuesRepositoryTest.cs",
-              "RelativeDocumentMoniker": "UnitTeste1\\ValuesRepositoryTest.cs",
-              "ToolTip": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\UnitTeste1\\ValuesRepositoryTest.cs",
-              "RelativeToolTip": "UnitTeste1\\ValuesRepositoryTest.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAuwEAAAAAFAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\web-app-inventario\\ConsumidorMensageria\\Program.cs",
+              "RelativeDocumentMoniker": "ConsumidorMensageria\\Program.cs",
+              "ToolTip": "D:\\web-app-inventario\\ConsumidorMensageria\\Program.cs",
+              "RelativeToolTip": "ConsumidorMensageria\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T01:03:43.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Values.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\Values.cs",
-              "RelativeDocumentMoniker": "web-app-domain\\Values.cs",
-              "ToolTip": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\Values.cs",
-              "RelativeToolTip": "web-app-domain\\Values.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:27:47.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IValueRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\IValueRepository.cs",
-              "RelativeDocumentMoniker": "web-app-repository\\IValueRepository.cs",
-              "ToolTip": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\IValueRepository.cs",
-              "RelativeToolTip": "web-app-repository\\IValueRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:27:29.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ValueRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\ValueRepository.cs",
-              "RelativeDocumentMoniker": "web-app-repository\\ValueRepository.cs",
-              "ToolTip": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\ValueRepository.cs",
-              "RelativeToolTip": "web-app-repository\\ValueRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:27:27.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ValuesControllerTest.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\UnitTeste1\\ValuesControllerTest.cs",
-              "RelativeDocumentMoniker": "UnitTeste1\\ValuesControllerTest.cs",
-              "ToolTip": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\UnitTeste1\\ValuesControllerTest.cs",
-              "RelativeToolTip": "UnitTeste1\\ValuesControllerTest.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAgwEsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:15:01.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "web-app-inventario\\Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "web-app-inventario\\Controllers\\ValuesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:06:28.352Z",
+              "WhenOpened": "2024-10-31T23:55:13.412Z",
               "EditorCaption": ""
             }
           ]

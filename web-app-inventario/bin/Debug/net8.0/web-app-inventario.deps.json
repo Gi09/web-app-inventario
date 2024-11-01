@@ -8,8 +8,10 @@
     ".NETCoreApp,Version=v8.0": {
       "web-app-inventario/1.0.0": {
         "dependencies": {
+          "ConsumidorMensageria": "1.0.0",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Newtonsoft.Json": "13.0.3",
+          "RabbitMQ.Client": "6.8.1",
           "StackExchange.Redis": "2.8.16",
           "Swashbuckle.AspNetCore": "6.4.0",
           "web-app-domain": "1.0.0",
@@ -77,7 +79,7 @@
       },
       "Microsoft.Extensions.Primitives/2.2.0": {
         "dependencies": {
-          "System.Memory": "4.5.1",
+          "System.Memory": "4.5.5",
           "System.Runtime.CompilerServices.Unsafe": "4.5.1"
         }
       },
@@ -122,6 +124,18 @@
           "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "2.2.8.1080"
+          }
+        }
+      },
+      "RabbitMQ.Client/6.8.1": {
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.8.1.0"
           }
         }
       },
@@ -178,9 +192,18 @@
       "System.Buffers/4.5.0": {},
       "System.ComponentModel.Annotations/4.5.0": {},
       "System.IO.Pipelines/5.0.1": {},
-      "System.Memory/4.5.1": {},
+      "System.Memory/4.5.5": {},
       "System.Runtime.CompilerServices.Unsafe/4.5.1": {},
       "System.Text.Encodings.Web/4.5.0": {},
+      "System.Threading.Channels/7.0.0": {},
+      "ConsumidorMensageria/1.0.0": {
+        "dependencies": {
+          "RabbitMQ.Client": "6.8.1"
+        },
+        "runtime": {
+          "ConsumidorMensageria.dll": {}
+        }
+      },
       "web-app-domain/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Cors": "2.2.0"
@@ -327,6 +350,13 @@
       "path": "pipelines.sockets.unofficial/2.2.8",
       "hashPath": "pipelines.sockets.unofficial.2.2.8.nupkg.sha512"
     },
+    "RabbitMQ.Client/6.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
+      "path": "rabbitmq.client/6.8.1",
+      "hashPath": "rabbitmq.client.6.8.1.nupkg.sha512"
+    },
     "StackExchange.Redis/2.8.16": {
       "type": "package",
       "serviceable": true,
@@ -383,12 +413,12 @@
       "path": "system.io.pipelines/5.0.1",
       "hashPath": "system.io.pipelines.5.0.1.nupkg.sha512"
     },
-    "System.Memory/4.5.1": {
+    "System.Memory/4.5.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
-      "path": "system.memory/4.5.1",
-      "hashPath": "system.memory.4.5.1.nupkg.sha512"
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
       "type": "package",
@@ -403,6 +433,18 @@
       "sha512": "sha512-Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
       "path": "system.text.encodings.web/4.5.0",
       "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
+    },
+    "System.Threading.Channels/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
+      "path": "system.threading.channels/7.0.0",
+      "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
+    },
+    "ConsumidorMensageria/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "web-app-domain/1.0.0": {
       "type": "project",

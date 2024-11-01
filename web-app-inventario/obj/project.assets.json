@@ -269,6 +269,23 @@
           }
         }
       },
+      "RabbitMQ.Client/6.8.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "StackExchange.Redis/2.8.16": {
         "type": "package",
         "dependencies": {
@@ -380,7 +397,7 @@
           }
         }
       },
-      "System.Memory/4.5.1": {
+      "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.1/_._": {}
@@ -413,6 +430,35 @@
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.Threading.Channels/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "ConsumidorMensageria/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "RabbitMQ.Client": "6.8.1"
+        },
+        "compile": {
+          "bin/placeholder/ConsumidorMensageria.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsumidorMensageria.dll": {}
         }
       },
       "web-app-domain/1.0.0": {
@@ -998,6 +1044,23 @@
         "pipelines.sockets.unofficial.nuspec"
       ]
     },
+    "RabbitMQ.Client/6.8.1": {
+      "sha512": "jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
+      "type": "package",
+      "path": "rabbitmq.client/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/RabbitMQ.Client.dll",
+        "lib/net462/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.8.1.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
     "StackExchange.Redis/2.8.16": {
       "sha512": "WaoulkOqOC9jHepca3JZKFTqndCWab5uYS7qCzmiQDlrTkFaDN7eLSlEfHycBxipRnQY9ppZM7QSsWAwUEGblw==",
       "type": "package",
@@ -1244,26 +1307,24 @@
         "version.txt"
       ]
     },
-    "System.Memory/4.5.1": {
-      "sha512": "sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
-      "path": "system.memory/4.5.1",
+      "path": "system.memory/4.5.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
         "lib/netcoreapp2.1/_._",
         "lib/netstandard1.1/System.Memory.dll",
         "lib/netstandard1.1/System.Memory.xml",
         "lib/netstandard2.0/System.Memory.dll",
         "lib/netstandard2.0/System.Memory.xml",
         "ref/netcoreapp2.1/_._",
-        "ref/netstandard1.1/System.Memory.dll",
-        "ref/netstandard1.1/System.Memory.xml",
-        "ref/netstandard2.0/System.Memory.dll",
-        "ref/netstandard2.0/System.Memory.xml",
-        "system.memory.4.5.1.nupkg.sha512",
+        "system.memory.4.5.5.nupkg.sha512",
         "system.memory.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -1313,6 +1374,40 @@
         "version.txt"
       ]
     },
+    "System.Threading.Channels/7.0.0": {
+      "sha512": "qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
+      "type": "package",
+      "path": "system.threading.channels/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Threading.Channels.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
+        "lib/net462/System.Threading.Channels.dll",
+        "lib/net462/System.Threading.Channels.xml",
+        "lib/net6.0/System.Threading.Channels.dll",
+        "lib/net6.0/System.Threading.Channels.xml",
+        "lib/net7.0/System.Threading.Channels.dll",
+        "lib/net7.0/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.7.0.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "ConsumidorMensageria/1.0.0": {
+      "type": "project",
+      "path": "../ConsumidorMensageria/ConsumidorMensageria.csproj",
+      "msbuildProject": "../ConsumidorMensageria/ConsumidorMensageria.csproj"
+    },
     "web-app-domain/1.0.0": {
       "type": "project",
       "path": "../web-app-domain/web-app-domain.csproj",
@@ -1326,8 +1421,10 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ConsumidorMensageria >= 1.0.0",
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "Newtonsoft.Json >= 13.0.3",
+      "RabbitMQ.Client >= 6.8.1",
       "StackExchange.Redis >= 2.8.16",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "web-app-domain >= 1.0.0",
@@ -1335,19 +1432,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Giovanna\\.nuget\\packages\\": {}
+    "C:\\Softwares\\Nuget": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj",
+      "projectUniqueName": "D:\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj",
       "projectName": "web-app-inventario",
-      "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj",
-      "packagesPath": "C:\\Users\\Giovanna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-inventario\\obj\\",
+      "projectPath": "D:\\web-app-inventario\\web-app-inventario\\web-app-inventario.csproj",
+      "packagesPath": "C:\\Softwares\\Nuget",
+      "outputPath": "D:\\web-app-inventario\\web-app-inventario\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Giovanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "c:\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1355,17 +1457,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
-              "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-domain\\web-app-domain.csproj"
+            "D:\\web-app-inventario\\ConsumidorMensageria\\ConsumidorMensageria.csproj": {
+              "projectPath": "D:\\web-app-inventario\\ConsumidorMensageria\\ConsumidorMensageria.csproj"
             },
-            "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {
-              "projectPath": "C:\\Users\\Giovanna\\Desktop\\3SIR\\Microservice and Web Engineering\\web-app-inventario\\web-app-repository\\web-app-repository.csproj"
+            "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj": {
+              "projectPath": "D:\\web-app-inventario\\web-app-domain\\web-app-domain.csproj"
+            },
+            "D:\\web-app-inventario\\web-app-repository\\web-app-repository.csproj": {
+              "projectPath": "D:\\web-app-inventario\\web-app-repository\\web-app-repository.csproj"
             }
           }
         }
@@ -1392,6 +1498,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.8.1, )"
           },
           "StackExchange.Redis": {
             "target": "Package",
@@ -1421,7 +1531,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
